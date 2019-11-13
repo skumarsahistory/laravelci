@@ -15,6 +15,17 @@ namespace App\Http\Controllers;
 use App\Form;
 use Illuminate\Http\Request;
 
+/**
+ * This sniff prohibits the use of Perl style hash comments.
+ *
+ * PHP version 5
+ *
+ * @category PHP
+ * @package  PHP_CodeSniffer
+ * @author   Your Name <you@domain.net>
+ * @license  https://github.com/licence.txt BSD Licence
+ * @link     http://pear.php.net/package/PHP_CodeSniffer
+ */
 class FormController extends Controller
 {
   
