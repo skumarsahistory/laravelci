@@ -31,8 +31,8 @@ before_script:
 script:
  - vendor/bin/phpunit --coverage-text
  - vendor/bin/phpcs --ignore=app/Http/Controllers/Auth,app/Http/Controllers/Controller.php app/Http/Controllers
- - npm run production
- - jshint resources/js/
+ - npm run prod
+ - jshint resources/assets/js/
 
 notifications:
   email: true
